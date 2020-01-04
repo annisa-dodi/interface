@@ -1,6 +1,15 @@
 import makeStyles from '@material-ui/core/styles/makeStyles';
 
 const useStyles = makeStyles(theme => ({
+  bannerContainer: {
+    // backgroundImage: `url('/assets/background-pict.jpg')`
+    display: 'flex',
+    justifyContent: 'center',
+    margin: '1rem auto'
+  },
+  bannerImage: {
+    maxHeight: '760px'
+  },
   footerContainer: {
     display: 'flex',
     justifyContent: 'center',
